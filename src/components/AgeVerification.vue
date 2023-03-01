@@ -56,10 +56,16 @@ $C5: #7A536B;
   background-color: $C1;
   color: $C4;
 
-  width: 70%;
   padding: 1rem;
   border-radius: 1rem;
   border: $C2 solid 3px;
+
+
+  width: 95%;
+  @media (min-width: 480px) {
+    //iPads, Tablets
+    width: 70%;
+  }
 }
 
 .buttons {
