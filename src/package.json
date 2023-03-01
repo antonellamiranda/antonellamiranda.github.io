@@ -1,5 +1,5 @@
 {
-  "name": "Antonella",
+  "name": "antonella",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -28,6 +28,8 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1",
+    "node-sass": "6.0.1",
+    "sass-loader": "10.2.1",
     "prettier": "^2.7.1"
   }
 }

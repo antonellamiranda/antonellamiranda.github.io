@@ -1,11 +1,15 @@
 <template>
-  <age-verification />
+  <div>
+    Empty
+  </div>
 </template>
 
 <script>
-
-
 export default {
-  name: 'IndexPage',
+  name: 'Empty',
 }
 </script>
+
+<style>
+
+</style>
