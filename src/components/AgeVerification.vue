@@ -7,7 +7,7 @@
 
       <div class="buttons">
         <button @click="leave">No, I'm under 18</button>
-        <button class="primary">Yes, I'm 18</button>
+        <button @click="agree" class="primary">Yes, I'm 18</button>
       </div>
     </div>
   </div>
@@ -16,9 +16,11 @@
 <script>
 export default {
   name: 'AgeVerification',
-  methods:{
-    leave(){
+  methods: {
+    leave() {
       window.location.assign('https://www.google.com/search?q=cartoons&tbm=isch');
+    }, agree() {
+      this.$emit("agree");
     }
   }
 }
@@ -81,7 +83,7 @@ $C5: #7A536B;
       border: $C3 solid 3px;
     }
 
-    &:hover{
+    &:hover {
       opacity: 0.5;
       cursor: pointer;
     }
