@@ -2,3 +2,8 @@ git config --global user.email "MY_NAME@gmail.com"
 git config --global user.name "FIRST_NAME LAST_NAME"
 
 https://yuslopez.com/
+
+ayuda:   git config pull.rebase false  # fusionar
+ayuda:   git config pull.rebase true   # rebasar
+ayuda:   git config pull.ff only       # solo avance rápido
+
