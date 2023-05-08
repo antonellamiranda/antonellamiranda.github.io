@@ -1,10 +1,7 @@
 <template>
   <div class="page">
     <age-verification v-if="!agree" @agree="()=>agree=true"/>
-    <template v-else>
-      <my-header/>
-      <main-section/>
-    </template>
+    <main-view v-else/>
   </div>
 </template>
 
@@ -24,5 +21,7 @@ export default {
 <style lang="scss">
 .page {
   height: 100%;
+  background-color: #f66c6c;
+  //background-color: #FF0000;
 }
 </style>
