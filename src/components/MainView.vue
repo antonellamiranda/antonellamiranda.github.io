@@ -12,40 +12,40 @@ export default {
 </script>
 
 <style lang="scss">
-$C1: #FBABDC;
-$C2: #F95EBE;
-$C3: #C74C98;
-$C4: #7A2F5D;
-$C5: #7A536B;
-
-#main-view {
-  width: 100%;
-
-  #first, #second {
-    position: relative;
-    height: 50vh;
-    overflow: hidden;
-  }
-
-  #first {
-    max-height: 900px;
-
-    img {
-      position: absolute;
-    }
-
-    #antonella_miranda {
-      display: block;
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-    }
-
-  }
-
-
-}
+//$C1: #FBABDC;
+//$C2: #F95EBE;
+//$C3: #C74C98;
+//$C4: #7A2F5D;
+//$C5: #7A536B;
+//
+//#main-view {
+//  width: 100%;
+//
+//  #first, #second {
+//    position: relative;
+//    height: 50vh;
+//    overflow: hidden;
+//  }
+//
+//  #first {
+//    max-height: 900px;
+//
+//    img {
+//      position: absolute;
+//    }
+//
+//    #antonella_miranda {
+//      display: block;
+//      max-width: 1200px;
+//      margin-left: auto;
+//      margin-right: auto;
+//      width: 100%;
+//    }
+//
+//  }
+//
+//
+//}
 
 //
 //#first {
