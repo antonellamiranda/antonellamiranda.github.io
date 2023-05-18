@@ -7,3 +7,4 @@ ayuda:   git config pull.rebase false  # fusionar
 ayuda:   git config pull.rebase true   # rebasar
 ayuda:   git config pull.ff only       # solo avance rápido
 
+npm install -g npm@8
