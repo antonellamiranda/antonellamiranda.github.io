@@ -1,13 +1,13 @@
 <template>
-    <div id="main-view">
-        <first/>
-        <second/>
-    </div>
+  <div id="main-view">
+    <first />
+    <!--        <second/>-->
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'EmptyComponent',
+  name: 'EmptyComponent',
 }
 </script>
 
